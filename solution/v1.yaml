@@ -1,6 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  annotations: 
+    submitted-by: dawit-zeleke-ugr7912
+    author: "Dawit Zeleke- UGR/7912/13"
   name: mydeployment
   labels:
     app: mywebapp
